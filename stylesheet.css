@@ -1,0 +1,76 @@
+/* fichier pour cv Steph */
+body {
+  background-color: #D3D3D3;
+  color: #000000;
+  width: 100%;
+  max-width: 960px;
+  margin: 15px;
+  padding: 10px;
+
+}
+
+li {
+  list-style-type: none;
+}
+
+#tete {
+  position: fixed;
+  width: 100%;
+  max-width: 960px;
+  display: flex | inline-flex;
+}
+
+#corp {
+  margin-top: 220px;
+}
+
+header {
+  background-image: url(fond/grunge_wall_@2X.png);
+}
+main {
+  background-image: url(fond/tileable_wood_texture_@2X.png);
+}
+footer {
+  background-image: url(fond/concrete_wall_2_@2X.png);
+}
+
+.conteneur {
+  width: 100%;
+  max-width: 960px;
+  margin: 15px;
+  padding: 10px;
+}
+img {
+width:400px;
+height:130px;
+float: left;
+margin-right: 100px;
+margin-top: 20px;
+}
+
+h2 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+hr {
+  width: 95%;
+  max-width: 960px;
+  margin: 0;
+  height: 2px;
+  background-color: black;
+}
+
+iframe {
+  width: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.comp {
+  display: flex;
+}
